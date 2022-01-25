@@ -11,10 +11,10 @@ export const fetchApi = async (url) => {
         
         headers:{
             'x-rapidapi-host': 'bayut.p.rapidapi.com',
-            'x-rapidapi-key': 'a41bbda1acmshe46c8ab76438e77p1e7c65jsnde4ee1f5cdba'
+            'x-rapidapi-key': process.env.RAPID_API_KEY,
         }
     
     })
     return data; 
-}
+} 
     
